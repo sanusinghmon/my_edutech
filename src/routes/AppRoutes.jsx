@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import { lazy, Suspense } from "react";
 import Layout from "../components/layout/Layout";
 
+// Lazy load pages
 const Home = lazy(() => import("../pages/Home"));
 const About = lazy(() => import("../pages/About"));
 const Courses = lazy(() => import("../pages/Courses"));
